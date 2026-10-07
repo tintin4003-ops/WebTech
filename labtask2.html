@@ -11,7 +11,7 @@
 
 <body>
 
-    <p class="required-note"><span class="red">*</span> - Denotes Required Information</p>
+    <p class="required-note"><span class="red">*</span> &nbsp;-&nbsp; Denotes Required Information</p>
     
     <div class="steps">
         <strong>> 1 Donation</strong> &emsp; > 2 Confirmation &emsp; > Thank You!
@@ -115,7 +115,7 @@
             <tr>
                 <td class="labelC">
                        <label>Donation Amount<span class="red">*</span></label>
-                    <div class="subtext">(Check a button or type in your amount)</div>
+                    <div class="subtext2">(Check a button or type in your amount)</div>
                 </td>
 
                 <td>
@@ -138,7 +138,7 @@
             <tr>
                 <td class="labelC">
                    <label>Recurring Donation</label>
-                    <div class="subtext">(Check if yes)</div>
+                    <div class="subtext2">(Check if yes)</div>
                 </td>
 
                 <td>
@@ -230,7 +230,7 @@
             <tr>
                 <td class="labelC">
                     <label>Comments</label>
-                    <div class="subtext">(Please type any questions or feedback here)</div>
+                    <div class="subtext2">(Please type any questions or feedback here)</div>
                 </td>
 
                 <td><textarea id="comments" name="comments" rows="4"></textarea></td>
@@ -240,19 +240,25 @@
             <tr>
                 <td class="labelC"><label>How may we contact you?</label></td>
                 <td>
-                     <input type="checkbox" id="email2" name="contact_email"> <label for="email2" class="line">E-mail</label><br>
-                    <input type="checkbox" id="postmail" name="contact_mail"> <label for="postmail" class="line">Postal Mail</label><br>
-                      <input type="checkbox" id="telephone" name="contact_phone"> <label for="telephone" class="line">Telephone</label><br>
-                     <input type="checkbox" id="fax2" name="contact_fax"> <label for="fax2" class="line">Fax</label>
+                     <input type="checkbox" id="email2" name="email2"> <label for="email2" class="line">E-mail</label><br>
+                    <input type="checkbox" id="postmail" name="postmail"> <label for="postmail" class="line">Postal Mail</label><br>
+                      <input type="checkbox" id="telephone" name="telephone"> <label for="telephone" class="line">Telephone</label><br>
+                     <input type="checkbox" id="fax2" name="fax2"> <label for="fax2" class="line">Fax</label>
                 </td>
             </tr>
         </table>
 
-        <p class="section-desc">I would like to receive newsletters and information about special events by:</p>
+        <p class="subtext">I would like to receive newsletters and information about special events by:</p>
+
+         <div class="label2">
+            <input type="checkbox" id="email3" name="email3"> <label for="email3" class="line">E-mail</label><br>
+            <input type="checkbox" id="postmail2" name="postmail2"> <label for="postmail2" class="line">Postal Mail</label><br>
+
+        </div>
+        
         <div class="checkbox-group">
-              <input type="checkbox" id="news_email" name="news_email"> <label for="news_email" class="line">E-mail</label><br>
-            <input type="checkbox" id="news_mail" name="news_mail"> <label for="news_mail" class="line">Postal Mail</label><br>
-            <input type="checkbox" id="volunteering" name="volunteering"> <label for="volunteering" class="line">I would like information about volunteering with us.</label>
+             
+            <input type="checkbox" id="volunteering" name="volunteering"> <label for="volunteering" class="line">I would like information about volunteering with the organization.</label>
         </div>
 
         <div class="button-group">
@@ -262,7 +268,7 @@
 
         <div class="footer-note">
             <p><img src="lock_icon.png" alt="lock icon" width="12" height="12"> Donate online with confidence. You are on a secure server.</p>
-            <p>If you have any problems or questions, please contact <a href="#">support</a>.</p>
+            <p>If you have any problems or questions, please contact <label class="subtext">support</label>.</p>
         </div>
 
     </form>
